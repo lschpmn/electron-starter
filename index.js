@@ -14,6 +14,9 @@ const openWindow = _.after(2, createWindow);
   port = await getIncrementalPort(5000);
   const options = {
     contentBase: './public',
+    historyApiFallback: {
+      disableDotRule: true,
+    },
     hot: true,
     host: 'localhost',
   };
