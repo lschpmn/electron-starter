@@ -47,7 +47,7 @@
     "webpack-dev-server": "3.10.1"
   },
   "dependencies": {
-    "electron": "7.1.7",
+    "electron": "9.1.0",
     "express": "4.17.1",
     "fs-jetpack": "2.2.3",
     "get-incremental-port": "gist:5566749d5222db411f51c4414171b17d",
